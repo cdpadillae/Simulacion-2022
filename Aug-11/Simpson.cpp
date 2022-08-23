@@ -6,7 +6,7 @@ double IntSimpson(double a, double b, int n);
 int main(){
     double xa = 0.0;
     double xb = M_PI/2.0;
-    int const N = 50;
+    int const N = 2;
     std::cout << IntSimpson(xa,xb,N) << std::endl;
     return 0;
 }
